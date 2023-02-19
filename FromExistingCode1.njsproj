@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <SchemaVersion>2.0</SchemaVersion>
+        <ProjectGuid>{fe7f812e-753d-4566-b77b-8acc70cf7f7d}</ProjectGuid>
+        <ProjectHome>.</ProjectHome>
+        <ProjectView>ShowAllFiles</ProjectView>
+        <StartupFile>docusaurus.config.js</StartupFile>
+        <WorkingDirectory>.</WorkingDirectory>
+        <OutputPath>.</OutputPath>
+        <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+        <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">17.0</VisualStudioVersion>
+        <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+    <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+    <ItemGroup>
+        <Content Include="package-lock.json" />
+        <Content Include="package.json" />
+        <Content Include="README.md" />
+        <Content Include="babel.config.js" />
+        <Content Include="docusaurus.config.js" />
+        <Content Include="sidebars.js" />
+        <Content Include="blog\2019-05-28-first-blog-post.md" />
+        <Content Include="blog\2019-05-29-long-blog-post.md" />
+        <Content Include="docs\intro.md" />
+        <Content Include="blog\2021-08-26-welcome\index.md" />
+        <Content Include="docs\tutorial-basics\_category_.json" />
+        <Content Include="docs\tutorial-basics\congratulations.md" />
+        <Content Include="docs\tutorial-basics\create-a-blog-post.md" />
+        <Content Include="docs\tutorial-basics\create-a-document.md" />
+        <Content Include="docs\tutorial-basics\create-a-page.md" />
+        <Content Include="docs\tutorial-basics\deploy-your-site.md" />
+        <Content Include="docs\tutorial-extras\_category_.json" />
+        <Content Include="docs\tutorial-extras\manage-docs-versions.md" />
+        <Content Include="docs\tutorial-extras\translate-your-site.md" />
+        <Content Include="docs\tutorial-extras\img\docsVersionDropdown.png" />
+        <Content Include="docs\tutorial-extras\img\localeDropdown.png" />
+        <Content Include="src\css\custom.css" />
+        <Content Include="src\pages\index.module.css" />
+        <Content Include="src\pages\markdown-page.md" />
+        <Content Include="src\pages\index.js" />
+        <Content Include="src\components\HomepageFeatures\styles.module.css" />
+        <Content Include="src\components\HomepageFeatures\index.js" />
+        <Content Include="static\img\docusaurus.png" />
+        <Content Include="static\img\docusaurus-social-card.jpg" />
+        <Content Include="static\img\favicon.ico" />
+        <Content Include="static\img\logo.svg" />
+        <Content Include="static\img\undraw_docusaurus_mountain.svg" />
+        <Content Include="static\img\undraw_docusaurus_react.svg" />
+        <Content Include="static\img\undraw_docusaurus_tree.svg" />
+    </ItemGroup>
+    <ItemGroup>
+        <Folder Include="blog" />
+        <Folder Include="blog\2021-08-26-welcome" />
+        <Folder Include="docs" />
+        <Folder Include="docs\tutorial-basics" />
+        <Folder Include="docs\tutorial-extras" />
+        <Folder Include="docs\tutorial-extras\img" />
+        <Folder Include="src" />
+        <Folder Include="src\components" />
+        <Folder Include="src\components\HomepageFeatures" />
+        <Folder Include="src\css" />
+        <Folder Include="src\pages" />
+        <Folder Include="static" />
+        <Folder Include="static\img" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+    <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
+    <ProjectExtensions>
+        <VisualStudio>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+            <WebProjectProperties>
+              <UseIIS>False</UseIIS>
+              <AutoAssignPort>True</AutoAssignPort>
+              <DevelopmentServerPort>0</DevelopmentServerPort>
+              <DevelopmentServerVPath>/</DevelopmentServerVPath>
+              <IISUrl>http://localhost:48022/</IISUrl>
+              <NTLMAuthentication>False</NTLMAuthentication>
+              <UseCustomServer>True</UseCustomServer>
+              <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+              <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+            </WebProjectProperties>
+          </FlavorProperties>
+          <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+            <WebProjectProperties>
+              <StartPageUrl>
+              </StartPageUrl>
+              <StartAction>CurrentPage</StartAction>
+              <AspNetDebugging>True</AspNetDebugging>
+              <SilverlightDebugging>False</SilverlightDebugging>
+              <NativeDebugging>False</NativeDebugging>
+              <SQLDebugging>False</SQLDebugging>
+              <ExternalProgram>
+              </ExternalProgram>
+              <StartExternalURL>
+              </StartExternalURL>
+              <StartCmdLineArguments>
+              </StartCmdLineArguments>
+              <StartWorkingDirectory>
+              </StartWorkingDirectory>
+              <EnableENC>False</EnableENC>
+              <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+            </WebProjectProperties>
+          </FlavorProperties>
+        </VisualStudio>
+    </ProjectExtensions>
+</Project>
