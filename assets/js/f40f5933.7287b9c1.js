@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksauro=self.webpackChunksauro||[]).push([[5468],{8622:o=>{o.exports=JSON.parse('{"permalink":"/documetation-start/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
